@@ -1,0 +1,34 @@
+1️⃣ Themes
+
+RISE has built-in themes you can set in the metadata ("rise": {"theme": "..."}):
+
+Theme	Description
+simple	Minimal, clean slides. Works well for code-heavy slides.
+serif	Uses serif fonts for headings and content. Classic look.
+solarized	Solarized color palette. Easy on the eyes.
+sky	Light, blueish theme. Fresh and modern.
+beige	Beige background, simple style for presentations.
+night	Dark theme. Good for dark rooms or night presentations.
+
+You can also define custom CSS in "css": ["custom.css"] to tweak fonts, colors, and spacing.
+
+
+2️⃣ Transitions
+
+You can control how slides appear with the "transition" option in the metadata:
+
+Transition	Description
+fade	Slides fade in/out smoothly.
+slide	Slides slide in from the side. Default Reveal.js behavior.
+convex	Convex 3D-like slide effect.
+concave	Concave 3D effect.
+zoom	Zoom in/out effect for each slide.
+
+3️⃣ Additional Options
+Option	Description
+slideNumber: true	Show slide numbers in the corner.
+enable_chalkboard: true	Activate the chalkboard (drawing) feature in live presentations.
+enable_notes: true	Show speaker notes.
+start_slideshow_at: "beginning"	Start slideshow automatically from the first slide.
+width / height	Control slide dimensions ("100%" for full screen).
+controls: true/false	Show slide navigation arrows (optional).
